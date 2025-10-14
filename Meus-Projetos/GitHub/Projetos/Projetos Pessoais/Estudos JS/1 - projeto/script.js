@@ -1,7 +1,9 @@
+botao = document.getElementById('btnAmor');
 
-      function mostrarAlerta() {
-        alert("Eu te amo! 💘");
-        setTimeout(mostrarAlerta);
-      }
+botao = addEventListener('click', () => {
+    function mostrarAlerta() {
+        alert("Eu te amo! 💘");
+}
 
-      mostrarAlerta();
+    mostrarAlerta();
+})
